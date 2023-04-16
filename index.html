@@ -3,7 +3,7 @@
   <head>
     <title>Lab Week 2 - HTML and DevTools</title>
     <meta name="author" content="Fayaz Shaik">
-    <meta name="description" content="Sample Meeting Notes Template for the future"
+    <meta name="description" content="Sample Meeting Notes Template for the future">
     <link rel="favicon" href="assets/favicon.ico" type="image/x-icon">
   </head>
   <body>
@@ -12,15 +12,17 @@
     <main>
         <h3>Side topics "chit chat"</h3>
         <ol>
-            <li>John's birthday!</li>
+            <li><a href="https://youtu.be/dQw4w9WgXcQ">John's birthday!</a></li>
             <li>Mary's Request of the Kitchekn</li>
             <li>Richard's new cat</li>
         </ol>
         <h2>Attendance</h2>
         <nav>
-            <ul><a href="https://youtu.be/dQw4w9WgXcQ">Richard Miles</a></ul>
-            <ul>John Doe</ul>
-            <ul>Mary Major</ul>
+            <ul>
+                <li>Richard Miles</li>
+                <li>John Doe</li>
+                <li>Mary Major</li>
+            </ul>
         </nav>
         <h2>Topics in discussion</h2>
         <section>
@@ -28,18 +30,18 @@
             <div>
                 <p>How can we make our logo more better-looking for new buyers? Should be representative of our values, <em>mainly inclusion</em>?</p>
                 <p>Recall our whiteboard from previous times</p>
-                <img src="screenshots/whiteboard.png">
+                <img alt="whiteboard drawing" src="screenshots/whiteboard.png">
                 <p>Which color scheme should we adopt for our website revamp? <b>Black & Yellow</b> OR <b>Corral & Teal</b></p>
 
                 <details>
                     <summary>Black & Yellow</summary>
                     <p>Recall our sample of why we chose this color:</p>
-                    <img src="https://creativebeacon.com/wp-content/uploads/2015/01/pluton_03.jpg">
+                    <img alt="sample b&y template" src="https://creativebeacon.com/wp-content/uploads/2015/01/pluton_03.jpg">
                 </details>
                 <details>
                     <summary>Coral & Teal</summary>
                     <div>Sample website page on a good theme</div>
-                    <img src="https://www.webfx.com/wp-content/uploads/2021/10/26-06_bidsketch.jpg">
+                    <img tmp="sample c&t template" src="https://www.webfx.com/wp-content/uploads/2021/10/26-06_bidsketch.jpg">
                 </details>
             </div>
         </section>
@@ -48,19 +50,19 @@
 
         <section>
             <h3>New business</h3>
-            <p></p>
+            <p>Settle the debate on what to do: milk before cereal or cereal before milk</p>
         </section>
         <h2>Next steps</h2>
         <div>
             <p>Audio recording of our next steps</p>
             <audio controls>
-                <source src="assets/audio.wav" type="audio/wav"
+                <source src="assets/audio.wav" type="audio/wav">
             </audio>
         </div>
         <div>
             <p>Video recording version instead</p>
             <video width="400" controls>
-                <source src="assets/video.mp4" type="video/mp4"
+                <source src="assets/video.mp4" type="video/mp4">
             </video>
         </div>
     </main>
@@ -74,16 +76,16 @@
         <form id="comments">
             <fieldset>
                 <div>
-                    <label id="q1">Should we bring up in the next meeting?</label>
-                    <input type="checkbox" id="q1">
+                    <label name="q1">Should we bring up in the next meeting?</label>
+                    <input type="checkbox" name="q1">
                 </div>
                 <div>
-                    <label id="q2">Is this a personal issue?</label>
-                    <input type="radio" id="q2">
+                    <label name="q2">Is this a personal issue?</label>
+                    <input type="radio" name="q2">
                 </div>
                 <div>
-                    <label id="q4">Date of submission.</label>
-                    <input type="date" id="q4">
+                    <label name="q4">Date of submission.</label>
+                    <input type="date" name="q4">
                 </div>
                 <div>
                     <textarea id="long-ended" placeholder="I would fix..."></textarea>
@@ -100,16 +102,16 @@
                 <div>
                     <label>Select the importance rating:</label>
                     <select id="stars">
-                        <option value="1"></option>
-                        <option value="2"></option>
-                        <option value="3"></option>
-                        <option value="4"></option>
-                        <option value="5"></option>
+                        <option>⭐️</option>
+                        <option>⭐️⭐️</option>
+                        <option>⭐️⭐️⭐️</option>
+                        <option>⭐️⭐️⭐️⭐️</option>
+                        <option>⭐️⭐️⭐️⭐️⭐️</option>
                     </select>
                 </div>
                 <div>
-                    <label id="q3">Comments?</label>
-                    <input type="text" id="q3">
+                    <label name="q3">Comments?</label>
+                    <input type="text" name="q3">
                 </div>
                 <div>
                     <button>Submit!</button>
